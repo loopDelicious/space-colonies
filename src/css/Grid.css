@@ -1,0 +1,12 @@
+.grid-section {
+    width: 80vw;
+    min-width: 400px;
+    margin: 0 auto;
+    border: 1px darkgrey solid;
+}
+
+.tile {
+    width: 25%;
+    height: 200px;
+    border: 1px whitesmoke solid;
+}
