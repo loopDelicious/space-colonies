@@ -2,19 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Get started
+### Pre-requisites for local development
+1. Download and install [Node.js](https://nodejs.org/en/) and a package manager like [npm](https://www.npmjs.com/),
+1. Install [Redis](https://redis.io/)
 
-Install dependencies.
+### For Development
 
-### `npm install`
+    npm install // install dependencies
+    npm start // start app, running on 3000
+    npm run start-server // start server on 5500
+    redis-server // start redis server
 
-Start local server.
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
+### For Production
