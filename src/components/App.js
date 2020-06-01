@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/logo.svg';
+import otter from '../img/otter.jpg';
 import Grid from './Grid';
 import '../css/App.css';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={otter} className="App-logo" alt="logo" />
       </header>
       <Grid />
     </div>
